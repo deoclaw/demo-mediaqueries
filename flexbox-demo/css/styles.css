@@ -57,6 +57,7 @@ nav li:hover {
 /* WRAPPER */
 #wrapper {
 	display: flex;
+	gap: 2;
 	flex-direction: row; /* Can use reverse-column to create a column view and shoves the sidebar to the end*/
 }
 
@@ -65,7 +66,7 @@ nav li:hover {
 }
 
 #wrapper > main {
-	flex: 2;
+	flex: 3;
 }
 
 /* SIDEBAR STYLES */
@@ -84,6 +85,17 @@ nav li:hover {
 	padding: 1.5rem;
 	margin: 0 1rem 0 0;
 }
+
+/* Flexes our Sidebar Articles */
+.sidebar-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+/* 
+.sidebar-wrap article {
+	flex: 1 1 0;
+} */
 
 /*  MAIN CONTENT STYLES */
 

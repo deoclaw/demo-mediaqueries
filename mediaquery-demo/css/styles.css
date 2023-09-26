@@ -54,8 +54,14 @@ nav li:hover {
 	background-color: rgb(var(--secondary));
 }
 
+/* make this to center stuff */
+#wrapper {
+	max-width: 75%;
+	margin: 0 auto;
+}
+
 /* WRAPPER */
-#wrapper * {
+#wrapper > * {
 	float: none; /* THIS NEESD TO BE LEFT TO MAKE A 2-COL LAYOUT SANS GRID */
 }
 
@@ -91,6 +97,7 @@ main p {
 
 /*  FOOTER STYLES */
 footer {
+	clear: both;
 	padding: 1rem;
 	margin: 1rem 0 0 0;
 	background-color: rgb(var(--secondary));
